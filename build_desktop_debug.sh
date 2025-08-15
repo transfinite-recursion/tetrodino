@@ -23,5 +23,5 @@
 OUT_DIR="build/desktop"
 mkdir -p $OUT_DIR
 odin build src/main_desktop -debug -sanitize:address -out:$OUT_DIR/tetrodino
-cp -R ./assets/ ./$OUT_DIR/assets/
+cp -R ./assets/ ./$OUT_DIR/
 echo "Desktop build created in ${OUT_DIR}"

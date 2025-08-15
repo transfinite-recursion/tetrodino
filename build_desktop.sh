@@ -25,5 +25,5 @@ set -e
 OUT_DIR="build/desktop"
 mkdir -p $OUT_DIR
 odin build src/main_desktop -o:speed -out:$OUT_DIR/tetrodino
-cp -R ./assets/ ./$OUT_DIR/assets/
+cp -R ./assets/ ./$OUT_DIR/
 echo "Desktop build created in ${OUT_DIR}"
